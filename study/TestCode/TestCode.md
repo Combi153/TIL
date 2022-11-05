@@ -10,5 +10,5 @@ https://yearnlune.github.io/java/java-private-method-test/#
 테스트 하기 좋은 코드
 https://jojoldu.tistory.com/674
 
-mock를 
+mock를 활용하기
 https://softarchitecture.tistory.com/64
