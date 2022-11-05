@@ -12,3 +12,11 @@ https://jojoldu.tistory.com/674
 
 mock를 활용하기
 https://softarchitecture.tistory.com/64
+
+System.in, System.out 에 대한 테스트 코드
+https://sakjung.tistory.com/33
+
+https://stackoverflow.com/questions/1119385/junit-test-for-system-out-println
+https://stackoverflow.com/questions/32241057/how-to-test-a-print-method-in-java-using-junit
+
+https://choichumji.tistory.com/118
