@@ -13,6 +13,10 @@ https://jojoldu.tistory.com/674
 mock를 활용하기
 https://softarchitecture.tistory.com/64
 
+https://medium.com/@SlackBeck/mock-object%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-85159754b2ac
+
+https://happy-coding-day.tistory.com/entry/Mock-%EA%B0%9D%EC%B2%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-%EC%99%9C-%EC%8D%A8%EC%95%BC%EB%90%A0%EA%B9%8C
+
 System.in, System.out 에 대한 테스트 코드
 https://sakjung.tistory.com/33
 
