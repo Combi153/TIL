@@ -1,4 +1,4 @@
-package object.chapter01.step01;
+package object.chapter01;
 
 public class TicketSeller {
     private TicketOffice ticketOffice;
@@ -8,6 +8,6 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience) {
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience);
     }
 }

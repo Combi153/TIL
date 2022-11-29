@@ -1,4 +1,4 @@
-package object.chapter01.step01;
+package object.chapter01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,6 +11,10 @@ public class TicketOffice {
     public TicketOffice(Long amount, Ticket ... tickets) {
         this.amount = amount;
         this.tickets.addAll(Arrays.asList(tickets));
+    }
+
+    public void sellTicketTo(Audience audience) {
+        plusAmount(audience.buy(getTicket()));
     }
 
     public Ticket getTicket() {
