@@ -1,4 +1,4 @@
-package object.chapter01.step01;
+package object.chapter01;
 
 public class Bag {
     private Long amount;
@@ -18,19 +18,25 @@ public class Bag {
         return invitation != null;
     }
 
-    public boolean hasTicket() {
-        return ticket != null;
-    }
-
-    public void setTicket(Ticket ticket) {
+    private void setTicket(Ticket ticket) {
         this.ticket = ticket;
     }
 
-    public void minusAmount(Long amount) {
+    private void minusAmount(Long amount) {
         this.amount -= amount;
     }
 
-    public void plusAmount(Long amount) {
+    private void plusAmount(Long amount) {
         this.amount += amount;
+    }
+
+    public Long hold(Ticket ticket) {
+        if (hasInvitation()) {
+            setTicket(ticket);
+            return 0L;
+        }
+        minusAmount(ticket.getFee());
+        setTicket(ticket);
+        return ticket.getFee();
     }
 }
