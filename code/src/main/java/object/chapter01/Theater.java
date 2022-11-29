@@ -1,4 +1,4 @@
-package object.chapter01.step01;
+package object.chapter01;
 
 public class Theater {
     private TicketSeller ticketSeller;
