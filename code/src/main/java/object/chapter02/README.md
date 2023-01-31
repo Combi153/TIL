@@ -6,6 +6,7 @@
 - DiscountPolicy
   - AmountDiscountPolicy
   - PercentDiscountPolicy
+  - NoneDiscountPolicy
 - DiscountCondition
   - SequenceCondition
   - PeriodCondition
